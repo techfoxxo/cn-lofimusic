@@ -67,7 +67,7 @@ func main() {
 			"pwa",
 		},
 		LoadingLabel: "Lofi music player to work, study and relax.",
-		Name:         "Lofimusic",
+		Name:         "CN Music Corner",
 		Image:        "https://lofimusic.app/web/covers/lofimusic.png",
 		RawHeaders: []string{
 			`<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -93,7 +93,7 @@ func main() {
 		},
 
 		ThemeColor: backgroundColor,
-		Title:      "Lofimusic",
+		Title:      "CN Music Corner",
 	}
 
 	opts := options{Port: 4000}
@@ -118,9 +118,7 @@ func main() {
 }
 
 func runLocal(ctx context.Context, h http.Handler, opts options) {
-	app.Logf("%s", logs.New("starting lofimusic app server").
-		Tag("port", opts.Port),
-	)
+	app.Logf("%s", logs.New("starting lofimusic app server"))
 
 	s := http.Server{
 		Addr:    fmt.Sprintf(":%v", opts.Port),

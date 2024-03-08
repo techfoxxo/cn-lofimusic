@@ -221,9 +221,9 @@ func (p *youTubePlayer) onError(ctx app.Context, args []app.Value) {
 
 	}
 
-	p.err = errors.New("youtube player error").
-		Tag("code", code).
-		Tag("description", msg)
+	fmt.Printf(msg)
+
+	p.err = errors.New("youtube player error")
 
 	fmt.Println("error:", p.err)
 }

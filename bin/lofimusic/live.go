@@ -24,38 +24,6 @@ func (r liveRadio) youtubeID() string {
 func getLiveRadios() []liveRadio {
 	radios := []liveRadio{
 		{
-			Slug:  "everything-fades-to-blue",
-			Name:  "Everything Fades To Blue",
-			Owner: "Sleepy Fish",
-			URL:   "https://youtu.be/PfgS405CdXk",
-			Cards: []string{
-				"Everything Fades To Blue is a mix of indie/emo and ambient music produced by Sleep Fish, a Pennsylvania-based producer that is also a student in statistics, data science, and machine learning.",
-				"Sleepy Fish is one of the few Lo-fi artists who actually sing in its creations.",
-				"Everything Fades To Blue is the 3rd episode of a story where a tidal wave destroys an island along with the home where Sleepy Fish used to live.",
-				"Toppled into the sea, on its own for the first time, Sleepy Fish uses its glow to search for family, to guide others, and to find its way.",
-				`The episode comes after "My Room Becomes the Sea" and "Beneath Your Waves".`,
-				"The undersea-themed animation has been made in collaboration with Tristan Gion and Bien à Vous Studio, a French studio based in Nantes.",
-			},
-			Links: []socialLink{
-				{
-					Slug: "website",
-					URL:  "https://chillhop.com/releases/sleepy-fish-everything-fades-to-blue",
-				},
-				{
-					Slug: "youtube",
-					URL:  "https://youtu.be/PfgS405CdXk",
-				},
-				{
-					Slug: "spotify",
-					URL:  "https://open.spotify.com/artist/1IJe80moz409PtxW4llPFw",
-				},
-				{
-					Slug: "instagram",
-					URL:  "https://www.instagram.com/sleepyfishmusic",
-				},
-			},
-		},
-		{
 			Slug:  "lofigirl",
 			Name:  "Lofi Girl",
 			Owner: "Lofi Girl",
@@ -221,39 +189,6 @@ func getLiveRadios() []liveRadio {
 			},
 		},
 		{
-			Slug:  "collegemusic",
-			Name:  "College Girl",
-			Owner: "College Music",
-			URL:   "https://youtu.be/3TASKrR6nrg",
-			Cards: []string{},
-			Links: []socialLink{
-				{
-					Slug: "website",
-					URL:  "https://www.collegemusic.co.uk/",
-				},
-				{
-					Slug: "youtube",
-					URL:  "https://youtu.be/3TASKrR6nrg",
-				},
-				{
-					Slug: "spotify",
-					URL:  "https://open.spotify.com/playlist/32hJXySZtt9YvnwcYINGZ0",
-				},
-				{
-					Slug: "instagram",
-					URL:  "https://www.instagram.com/collegemusic",
-				},
-				{
-					Slug: "facebook",
-					URL:  "https://www.facebook.com/collegemusic",
-				},
-				{
-					Slug: "twitter",
-					URL:  "https://twitter.com/collegemusicyt",
-				},
-			},
-		},
-		{
 			Slug:  "collegemusic-guy",
 			Name:  "College Guy",
 			Owner: "College Music",
@@ -287,247 +222,30 @@ func getLiveRadios() []liveRadio {
 			},
 		},
 		{
-			Slug:  "collegemusic-lonely",
-			Name:  "College Lonely",
-			Owner: "College Music",
-			URL:   "https://youtu.be/dxUtV-zNv9w",
+			Slug:  "lofi-code-beats",
+			Name:  "Coding Beats",
+			Owner: "Joma Tech",
+			URL:   "https://youtu.be/PY8f1Z3nARo",
 			Cards: []string{},
 			Links: []socialLink{
 				{
-					Slug: "website",
-					URL:  "https://www.collegemusic.co.uk/",
-				},
-				{
 					Slug: "youtube",
-					URL:  "https://youtu.be/dxUtV-zNv9w",
-				},
-				{
-					Slug: "spotify",
-					URL:  "https://open.spotify.com/playlist/32hJXySZtt9YvnwcYINGZ0",
+					URL:  "https://youtu.be/PY8f1Z3nARo",
 				},
 				{
 					Slug: "instagram",
-					URL:  "https://www.instagram.com/collegemusic",
+					URL:  "https://www.instagram.com/jomaoppa",
 				},
 				{
 					Slug: "facebook",
-					URL:  "https://www.facebook.com/collegemusic",
+					URL:  "https://www.facebook.com/jomaoppa",
 				},
 				{
 					Slug: "twitter",
-					URL:  "https://twitter.com/collegemusicyt",
+					URL:  "https://twitter.com/jomaoppa",
 				},
 			},
 		},
-		// {
-		// 	Slug:  "lofi-code-beats",
-		// 	Name:  "Coding Beats",
-		// 	Owner: "Joma Tech",
-		// 	URL:   "https://youtu.be/PY8f1Z3nARo",
-		// 	Cards: []string{},
-		// 	Links: []socialLink{
-		// 		{
-		// 			Slug: "youtube",
-		// 			URL:  "https://youtu.be/PY8f1Z3nARo",
-		// 		},
-		// 		{
-		// 			Slug: "instagram",
-		// 			URL:  "https://www.instagram.com/jomaoppa",
-		// 		},
-		// 		{
-		// 			Slug: "facebook",
-		// 			URL:  "https://www.facebook.com/jomaoppa",
-		// 		},
-		// 		{
-		// 			Slug: "twitter",
-		// 			URL:  "https://twitter.com/jomaoppa",
-		// 		},
-		// 	},
-		// },
-		// {
-		// 	Slug:  "steezyasfuck-coffee-show",
-		// 	Name:  "Steezy Coffee Shop",
-		// 	Owner: "STEEZYASFUCK",
-		// 	URL:   "https://youtu.be/-5KAN9_CzSA",
-		// 	Cards: []string{},
-		// 	Links: []socialLink{
-		// 		{
-		// 			Slug: "website",
-		// 			URL:  "https://www.stzzzy.com",
-		// 		},
-		// 		{
-		// 			Slug: "youtube",
-		// 			URL:  "https://youtu.be/-5KAN9_CzSA",
-		// 		},
-		// 		{
-		// 			Slug: "spotify",
-		// 			URL:  "https://open.spotify.com/playlist/2s9R059mmdc8kz6lrUqZZd",
-		// 		},
-		// 		{
-		// 			Slug: "instagram",
-		// 			URL:  "https://www.instagram.com/stzzyasfvck/",
-		// 		},
-		// 		{
-		// 			Slug: "twitter",
-		// 			URL:  "https://twitter.com/stzzyasfvck",
-		// 		},
-		// 	},
-		// },
-		// {
-		// 	Slug:  "steezyasfuck-junky-fluff",
-		// 	Name:  "Steezy Junky Fluff",
-		// 	Owner: "STEEZYASFUCK",
-		// 	URL:   "https://www.youtube.com/watch?v=xgirCNccI68",
-		// 	Cards: []string{},
-		// 	Links: []socialLink{
-		// 		{
-		// 			Slug: "website",
-		// 			URL:  "https://www.youtube.com/watch?v=xgirCNccI68",
-		// 		},
-		// 		{
-		// 			Slug: "youtube",
-		// 			URL:  "https://youtu.be/-5KAN9_CzSA",
-		// 		},
-		// 		{
-		// 			Slug: "spotify",
-		// 			URL:  "https://open.spotify.com/playlist/2s9R059mmdc8kz6lrUqZZd",
-		// 		},
-		// 		{
-		// 			Slug: "instagram",
-		// 			URL:  "https://www.instagram.com/stzzyasfvck/",
-		// 		},
-		// 		{
-		// 			Slug: "twitter",
-		// 			URL:  "https://twitter.com/stzzyasfvck",
-		// 		},
-		// 	},
-		// },
-		{
-			Slug:  "closedonsunday-pop-culture",
-			Name:  "Pop Culture Sunday",
-			Owner: "Closed on Sunday",
-			URL:   "https://youtu.be/pixAeRe2rk0",
-			Cards: []string{},
-			Links: []socialLink{
-				{
-					Slug: "youtube",
-					URL:  "https://youtu.be/pixAeRe2rk0",
-				},
-				{
-					Slug: "spotify",
-					URL:  "https://open.spotify.com/artist/1LwjR2mIm78OJRTYdkMLl3",
-				},
-				{
-					Slug: "discord",
-					URL:  "https://discord.com/invite/closedonsunday",
-				},
-				{
-					Slug: "instagram",
-					URL:  "https://www.instagram.com/closedonsundayy",
-				},
-			},
-		},
-		{
-			Slug:  "closedonsunday-starwars",
-			Name:  "Star Wars Sunday",
-			Owner: "Closed on Sunday",
-			URL:   "https://youtu.be/zFTFx6nclUY",
-			Cards: []string{},
-			Links: []socialLink{
-				{
-					Slug: "youtube",
-					URL:  "https://youtu.be/zFTFx6nclUY",
-				},
-				{
-					Slug: "spotify",
-					URL:  "https://open.spotify.com/artist/1LwjR2mIm78OJRTYdkMLl3",
-				},
-				{
-					Slug: "discord",
-					URL:  "https://discord.com/invite/closedonsunday",
-				},
-				{
-					Slug: "instagram",
-					URL:  "https://www.instagram.com/closedonsundayy",
-				},
-			},
-		},
-		{
-			Slug:  "thebootlegboy",
-			Name:  "Bootleg Smoke",
-			Owner: "the bootleg boy",
-			URL:   "https://youtu.be/bLlloaA4b4g",
-			Cards: []string{},
-			Links: []socialLink{
-				{
-					Slug: "website",
-					URL:  "https://www.thebootlegboy.com",
-				},
-				{
-					Slug: "youtube",
-					URL:  "https://youtu.be/bLlloaA4b4g",
-				},
-				{
-					Slug: "spotify",
-					URL:  "https://open.spotify.com/playlist/71019EDcRamfMmOEEoTdEu?si=XePP-REWQDSuzJT6-SXwSQ",
-				},
-				{
-					Slug: "discord",
-					URL:  "https://discord.com/invite/FZrUkey",
-				},
-				{
-					Slug: "instagram",
-					URL:  "https://www.instagram.com/thebootlegboy",
-				},
-				{
-					Slug: "twitter",
-					URL:  "https://twitter.com/thebootlegboy",
-				},
-			},
-		},
-		// {
-		// 	Slug:  "sleepynatula",
-		// 	Name:  "Sleepy Natula",
-		// 	Owner: "Tone by Gridge",
-		// 	URL:   "https://youtu.be/pCuy6U-RVFk",
-		// 	Cards: []string{
-		// 		"Sleepy Natula is a radio that broadcasts Neo chill beats style songs, produced by Tone by Gridge in the Japanese city of Tokyo.",
-		// 		"The animation shows Natula, a girl that fell asleep after drinking a relaxation drink named CHILL OUT.",
-		// 		"Natula lives in Sephora, a city located on a musical planet named Tone.",
-		// 		"On this planet, music is so important that it touches every species, nature, climate, culture, and civilization of each country.",
-		// 		"Tone is a multicultural planet where there are thousands of countries populated by music-loving beings that come from all over the galaxy.",
-		// 	},
-		// 	Links: []socialLink{
-		// 		{
-		// 			Slug: "website",
-		// 			URL:  "https://linktr.ee/tonebygridge?fbclid=IwAR2OYWJlav7MM66780DDtuu2k2viElVF3kgjn-GEK8c2RsvYt0TGOYz31zQ",
-		// 		},
-		// 		{
-		// 			Slug: "youtube",
-		// 			URL:  "https://youtu.be/pCuy6U-RVFk",
-		// 		},
-		// 		{
-		// 			Slug: "spotify",
-		// 			URL:  "https://open.spotify.com/playlist/1stD3Nr9W5HWf47ft5TfKh?si=fDM2-nsIRlSdv2IC_KaanQ",
-		// 		},
-		// 		{
-		// 			Slug: "discord",
-		// 			URL:  "https://discord.com/invite/eqH6RRj",
-		// 		},
-		// 		{
-		// 			Slug: "facebook",
-		// 			URL:  "https://www.facebook.com/tonedotcom",
-		// 		},
-		// 		{
-		// 			Slug: "instagram",
-		// 			URL:  "https://www.instagram.com/tonebygridge",
-		// 		},
-		// 		{
-		// 			Slug: "twitter",
-		// 			URL:  "https://twitter.com/tonedotcom",
-		// 		},
-		// 	},
-		// },
 		{
 			Slug:  "dreamhop",
 			Name:  "Dreamhop",
@@ -562,54 +280,60 @@ func getLiveRadios() []liveRadio {
 			},
 		},
 		{
-			Slug:  "taiki",
-			Name:  "Taiki",
-			Owner: "Chill with Taiki",
-			URL:   "https://youtu.be/qH3fETPsqXU",
+			Slug:  "synthwave-radio",
+			Name:  "Synthwave Radio",
+			Owner: "Lofi Girl",
+			URL:   "https://youtu.be/4xDzrJKXOOY",
 			Cards: []string{},
-			Links: []socialLink{
-				{
-					Slug: "youtube",
-					URL:  "https://youtu.be/qH3fETPsqXU",
-				},
-				{
-					Slug: "discord",
-					URL:  "https://discord.com/invite/2qvd2ngQGP",
-				},
-				{
-					Slug: "twitter",
-					URL:  "https://twitter.com/chillwithtaiki",
-				},
-				{
-					Slug: "facebook",
-					URL:  "https://www.facebook.com/chillwithtaiki",
-				},
-				{
-					Slug: "instagram",
-					URL:  "https://www.instagram.com/chillwithtaiki",
-				},
-				{
-					Slug: "website",
-					URL:  "https://taiki.shop",
-				},
-			},
+			Links: []socialLink{},
 		},
 		{
-			Slug:  "house-in-the-woods",
-			Name:  "House in the Woods",
-			Owner: "Lofi Zone",
-			URL:   "https://youtu.be/MKzeyoX_w4g",
+			Slug:  "bootleg",
+			Name:  "Bootleg",
+			Owner: "the bootleg boy",
+			URL:   "https://youtu.be/A_hmrykwR7g",
 			Cards: []string{},
-			Links: []socialLink{
-				{
-					Slug: "youtube",
-					URL:  "https://youtu.be/MKzeyoX_w4g",
-				},
-				{
-					Slug: "spotify",
-					URL:  "https://open.spotify.com/playlist/0V5IsHm0VJbmeffuLzgoc3?si=eac2c90bc18f4a97",
-				},
-			},
+			Links: []socialLink{},
+		},
+		{
+			Slug:  "peaceful-piano",
+			Name:  "Peaceful Piano",
+			Owner: "Lofi Girl",
+			URL:   "https://youtu.be/nWjC1RnLYbM",
+			Cards: []string{},
+			Links: []socialLink{},
+		},
+		{
+			Slug:  "dark-ambience",
+			Name:  "Dark Ambient Radio",
+			Owner: "Lofi Girl",
+			URL:   "https://youtu.be/SKhpl1OMqEY",
+			Cards: []string{},
+			Links: []socialLink{},
+		},
+		{
+			Slug:  "tavern",
+			Name:  "Tavern Radio",
+			Owner: "Filip Lackovic",
+			URL:   "https://youtu.be/vK5VwVyxkbI",
+			Cards: []string{},
+			Links: []socialLink{},
+		},
+		{
+			Slug:  "fantasy",
+			Name:  "Fantasy Radio",
+			Owner: "Michael Ghelfi Studio",
+			URL:   "https://youtu.be/DEJNkrHCUTE",
+			Cards: []string{},
+			Links: []socialLink{},
+		},
+		{
+			Slug:  "shaaaaark",
+			Name:  "Silly Shark Playlist",
+			Owner: "dolly life",
+			URL:   "https://youtu.be/7FEhvFgBSq4",
+			Cards: []string{},
+			Links: []socialLink{},
 		},
 	}
 
